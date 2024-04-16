@@ -8,7 +8,7 @@ $(document).ready(function(){
     
     function displayInput() {
       $('#pg1').append(
-        'Thanks you, ' + $('#fname').val() + ' ' + $('#lname').val() + ', for submiting an appointment request. We will get back to through your email, ' 
+        'Thanks you, ' + $('#fname').val() + ' ' + $('#lname').val() + ', for submiting an appointment request. We will get back to you through your email, ' 
         + $('#email').val() + ', or your phone number, ' + $('#phone').val() + ', as soon as possible.'
      );
     };
